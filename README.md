@@ -5,9 +5,13 @@ test
 
 ## Tagsets
 
-### MSD
+### MSD (Morphosyntactic Description)
 
-This is an annotation scheme. 
+MSD provides harmonised lexical specifications for ten languages, including Hungarian. 
+
+The description of version 3.0 is available [here](http://nl.ijs.si/ME/Vault/V3/msd/html/).
+
+Morphological information is represented in attribute-value pairs, where attributes are marked by positions and values are represented by a single character. 
 
 The tagset is available in two formats:
 
