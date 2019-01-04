@@ -23,7 +23,7 @@ The tagset is available in two formats:
 
 ### CoNLL
 
-This is not a tagset or an annotation scheme, just a format, actually the file format of the CoNLL-2009 shared task _Syntactic and Semantic Dependencies in Multiple Languages_. The original MSD codes are to be converted into a linearized format of attribute-value pairs. The code at position 0 is separated as the POS tag, while the other morphosyntactic attributes are in a linear order based on the MSD positions. For example, the code for the Hungarian verb form _adtad_ mentioned above is: `V SubPOS=m|Mood=i|Tense=s|Per=2|Num=s|Def=y`
+This is not a tagset or an annotation scheme, just a format, actually the file format of the CoNLL-2009 shared task [Syntactic and Semantic Dependencies in Multiple Languages](http://aclweb.org/anthology/W09-1201). The original MSD codes are to be converted into a linearized format of attribute-value pairs. The code at position 0 is separated as the POS tag, while the other morphosyntactic attributes are in a linear order based on the MSD positions. Non-applicable attributes have 'none' value. For example, the code for the Hungarian verb form _adtad_ mentioned above is: `V SubPOS=m|Mood=i|Tense=s|Per=2|Num=s|Def=y`
 
 The tagset is available in two formats:
 
