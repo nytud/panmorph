@@ -14,7 +14,7 @@ Morphological information is represented in attribute-value pairs, where attribu
 
 For example, `Vmis2s---y` is the code of a main verb in indicative mode, past tense, second person singular, definite conjugation (e.g. _adtad_).
 
-This tagset was used in Szeged Corpus and Treebank 1.0 and 2.0, and this was the output formalism of magyarlanc 1.0 and 2.0, as well. Later, a harmonized MSD-KR tagset has been developed, which is a slightly modified version of the original MSD. This tagset is used in Szeged Corpus and Treebank 2.5 and in magyarlanc 2.0. Here we refer to the latter version as MSD. 
+This tagset was used in [Szeged Treebank](http://rgai.inf.u-szeged.hu/index.php?lang=en&page=SzegedTreebank) 1.0 and 2.0, and this was the output formalism of versions 1.0 and 2.0 of [magyarlanc](http://rgai.inf.u-szeged.hu/index.php?lang=en&page=magyarlanc), a toolkit for linguistic processing of Hungarian, as well. Later, a harmonized MSD-KR tagset has been developed, which is a slightly modified version of the original MSD. This tagset is used in Szeged Corpus and Treebank 2.5 and in magyarlanc 2.0. Here we refer to the latter version as MSD. 
 
 The tagset is available in two formats:
 
