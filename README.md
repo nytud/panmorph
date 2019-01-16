@@ -18,8 +18,11 @@ This tagset was used in [Szeged Treebank](http://rgai.inf.u-szeged.hu/index.php?
 
 The tagset is available in two formats:
 
-* tsv
-* pdf
+* msd.tsv: possible tags of msd scheme. A wordlist was extracted from two sources:
+1. the 100000 most frequent words of [Webcorpus](http://mokk.bme.hu/resources/webcorpus/)
+1. tokens of Szeged Treebank
+These words were morphologically analyzed with magyarlanc 2.0, the list contains only the tags.
+* msd.pdf: documentation of the scheme with detailed description of possible values assigned to each POS-tags. The documentation includes co-occurrence matrices.
 
 ### CoNLL
 
@@ -27,8 +30,8 @@ This is not a tagset or an annotation scheme, just a format, actually the file f
 
 The tagset is available in two formats:
 
-* tsv
-* pdf
+* conll.tsv: sorted list of tags of Szeged Treebank
+* conll.pdf: documentation of the scheme with detailed description of possible values assigned to each POS-tags.
 
 ### UD
 
@@ -36,29 +39,36 @@ This is an annotation scheme.
 
 The tagset is available in two formats:
 
-* tsv
-* pdf
+* ud.tsv: possible tags of msd scheme. A wordlist was extracted from two sources:
+1. the 100000 most frequent words of [Webcorpus](http://mokk.bme.hu/resources/webcorpus/)
+1. tokens of Szeged Treebank
+These words were morphologically analyzed with magyarlanc 2.0, the list contains only the tags.
+* ud.pdf: documentation of the scheme with detailed description of possible values assigned to each POS-tags. The documentation includes co-occurrence matrices.
 
 ### emMorph
 
 This is an annotation scheme. 
 
-The tagset is available in two formats:
+The tagset is available in one format:
 
-* tsv
-* pdf
+* emmorph.tsv: possible tags of msd scheme. A wordlist was extracted from two sources:
+1. the 100000 most frequent words of [Webcorpus](http://mokk.bme.hu/resources/webcorpus/)
+1. tokens of Szeged Treebank
 
+## Morphologically analyzed words of Hungarian
+
+We analyzed the 100000 most frequent words of [Webcorpus](http://mokk.bme.hu/resources/webcorpus/) with emMorph and two versions of magyarlanc. Due to morphological ambiguity multiple analyses might be assigned to a word. The tsv file contains morphological tags of these tools assigned to each word of the wordlist. The .tsv file is made up of 4 columns:
+1. token
+1. emMorph tags by [emMorph](https://github.com/dlt-rilmta/emMorph)
+1. UD tags by [magyarlanc 3.0](http://rgai.inf.u-szeged.hu/index.php?lang=en&page=magyarlanc)
+1. MSD tags by magyarlanc 2.0
+
+Possible tags of a token in each column are stored in JSON format. The order of the tags is irrelevant.
+
+No manual corrections were carried out on the tags, therefore the list may contain errors. The analysis were done on november of 2018.
 
 ## Converters
 
-### emmorph2msd
-
-The converter is available [in another repo](https://github.com/vadno/emmorph2msd). 
-
-### emmorph2conll
-
-The converter is available [in another repo](https://github.com/vadno/emmorph2conll). 
-
-### emmorph2ud
-
-The converter is available [in another repo](https://github.com/vadno/emmorph2ud). 
+* emmorph2msd is available [here](https://github.com/vadno/emmorph2msd). 
+* emmorph2conll is available [here](https://github.com/vadno/emmorph2conll). 
+* emmorph2ud is available [here](https://github.com/vadno/emmorph2ud). 
