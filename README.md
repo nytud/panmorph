@@ -59,13 +59,7 @@ The tagset is available in one format:
 
 ## Morphologically analyzed words of Hungarian
 
-We analyzed the 100000 most frequent words of [Webcorpus](http://mokk.bme.hu/resources/webcorpus/) with emMorph and two versions of magyarlanc. Due to morphological ambiguity multiple analyses might be assigned to a word. The tsv file contains morphological tags of these tools assigned to each word of the wordlist. The .tsv file is made up of 4 columns:
-1. token
-1. emMorph tags by [emMorph](https://github.com/dlt-rilmta/emMorph)
-1. UD tags by [magyarlanc 3.0](http://rgai.inf.u-szeged.hu/index.php?lang=en&page=magyarlanc)
-1. MSD tags by magyarlanc 2.0
-
-Possible tags of a token in each column are stored in JSON format. The order of the tags is irrelevant.
+We analyzed the 100000 most frequent words of [Webcorpus](http://mokk.bme.hu/resources/webcorpus/) with [emMorph](https://github.com/dlt-rilmta/emMorph) and two versions of magyarlanc (magyarlanc2.0 and [magyarlanc 3.0](http://rgai.inf.u-szeged.hu/index.php?lang=en&page=magyarlanc)). Due to morphological ambiguity multiple analyses might be assigned to a word. The json file contains morphological tags of these tools assigned to each word of the wordlist.
 
 No manual corrections were carried out on the tags, therefore the list may contain errors. The analysis were done on november of 2018.
 
