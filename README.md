@@ -35,7 +35,9 @@ The tagset is available in two formats:
 
 ### UD
 
-This is an annotation scheme. 
+[Universal Dependencies](http://universaldependencies.org) (UD) is a framework for cross-linguistically consistent grammatical annotation for over 70 languages including Hungarian. The morphological specification of a word in the UD scheme consists of three levels of representation: lemma, part-of-speech (POS) tag, and feature-value pairs representing morphosyntactic properties of the word. The latter attributes are in a linearized format, in alphabetical order. Every feature has the form `Name=Value`, and features are separated by a vertical bar, such as in `Case=Nom|Number=Sing`. Non-applicable features must not be present in the list of feature--value pairs. The UD framework focuses on syntax, therefore its morphological representation encodes only those phenomena which are important for the syntax, which typically are the inflectional codes. 
+
+At the time of writing, the second version of UD is out. However, the development of UD2 for Hungarian and the conversion of Hungarian resources in UD1 are not yet available. Therefore, here we use 'UD' referring to UD1. This document is based on the documentation of UD1 applied for [Hungarian](https://universaldependencies.org/docsv1/index.html#hu). The Szeged Dependency Treebank has a version converted to the format of UD, and [magyarlanc 3.0](http://rgai.inf.u-szeged.hu/index.php?lang=en&page=magyarlanc) also outputs UD morphological annotation.
 
 The tagset is available in two formats:
 
@@ -43,7 +45,7 @@ The tagset is available in two formats:
 1. the 100000 most frequent words of [Webcorpus](http://mokk.bme.hu/resources/webcorpus/)
 1. tokens of Szeged Treebank
 These words were morphologically analyzed with magyarlanc 2.0, the list contains only the tags.
-* ud.pdf: documentation of the scheme with detailed description of possible values assigned to each POS-tags. The documentation includes co-occurrence matrices.
+* [ud.pdf](panmorph_ud.pdf): documentation of the scheme with detailed description of possible values assigned to each POS-tags. The documentation includes co-occurrence matrices.
 
 ### emMorph
 
