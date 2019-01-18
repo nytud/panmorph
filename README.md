@@ -18,7 +18,7 @@ This tagset was used in [Szeged Treebank](http://rgai.inf.u-szeged.hu/index.php?
 
 The tagset is available in two formats:
 
-* msd.tsv: possible tags of msd scheme. A wordlist was extracted from two sources:
+* [msd.tsv](msd.tsv): possible tags of msd scheme. A wordlist was extracted from two sources:
 1. the 100000 most frequent words of [Webcorpus](http://mokk.bme.hu/resources/webcorpus/)
 1. tokens of Szeged Treebank
 These words were morphologically analyzed with magyarlanc 2.0, the list contains only the tags.
@@ -41,7 +41,7 @@ At the time of writing, the second version of UD is out. However, the developmen
 
 The tagset is available in two formats:
 
-* ud.tsv: possible tags of msd scheme. A wordlist was extracted from two sources:
+* [ud.tsv](ud.tsv): possible tags of msd scheme. A wordlist was extracted from two sources:
 1. the 100000 most frequent words of [Webcorpus](http://mokk.bme.hu/resources/webcorpus/)
 1. tokens of Szeged Treebank
 These words were morphologically analyzed with magyarlanc 2.0, the list contains only the tags.
@@ -53,7 +53,7 @@ This is an annotation scheme.
 
 The tagset is available in one format:
 
-* emmorph.tsv: possible tags of msd scheme. A wordlist was extracted from two sources:
+* [emmorph.tsv](emmorph.tsv): possible tags of msd scheme. A wordlist was extracted from two sources:
 1. the 100000 most frequent words of [Webcorpus](http://mokk.bme.hu/resources/webcorpus/)
 1. tokens of Szeged Treebank
 
