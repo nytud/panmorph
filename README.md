@@ -49,7 +49,16 @@ These words were morphologically analyzed with magyarlanc 2.0, the list contains
 
 ### emMorph
 
-This is an annotation scheme. 
+This is an annotation scheme.
+
+The webpage of [e-magyar](https://e-magyar.hu/en/textmodules/emmorph_codelist), a toolchain for processing Hungarian lists all possible tags of emMorph. This list needs to be completed, two further possible tags were found:
+
+| tag | description | example | analysis |
+------|-------------|----------|---------|
+| [_VAdjz:nivaló/Adj] | nominalizer suffix ('to be ...-d') -nivaló > adjective | imádnivaló | imád[/V]nivaló[_VAdjz:nivaló/Adj][Nom] |
+| [Inl] | locative case suffix -Ott/-t	| Győrött |	Győr[/N]ött[Inl] |
+
+Locative case suffix tag is incorrect on the website, [Inl] is the correct tag instead of [Loc].
 
 The tagset is available in one format:
 
