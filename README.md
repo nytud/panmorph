@@ -30,7 +30,7 @@ This is not a tagset or an annotation scheme, just a format, actually the file f
 
 The tagset is available in two formats:
 
-* conll.tsv: sorted list of tags of Szeged Treebank
+* [conll.tsv](conll.tsv): sorted list of tags of Szeged Treebank
 * conll.pdf: documentation of the scheme with detailed description of possible values assigned to each POS-tags.
 
 ### UD
