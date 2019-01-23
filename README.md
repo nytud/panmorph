@@ -22,11 +22,11 @@ The tagset is available in two formats:
 1. the 100000 most frequent words of [Webcorpus](http://mokk.bme.hu/resources/webcorpus/)
 1. tokens of Szeged Treebank
 These words were morphologically analyzed with magyarlanc 2.0, the list contains only the tags.
-* msd.pdf: documentation of the scheme with detailed description of possible values assigned to each POS-tags. The documentation includes co-occurrence matrices.
+* [msd.pdf](msd.pdf): documentation of the scheme with detailed description of possible values assigned to each POS-tags. The documentation includes co-occurrence matrices.
 
 ### CoNLL
 
-This is not a tagset or an annotation scheme, just a format, actually the file format of the CoNLL-2009 shared task [Syntactic and Semantic Dependencies in Multiple Languages](http://aclweb.org/anthology/W09-1201). The original MSD codes are to be converted into a linearized format of attribute-value pairs. The code at position 0 is separated as the POS tag, while the other morphosyntactic attributes are in a linear order based on the MSD positions. Non-applicable attributes have 'none' value. For example, the code for the Hungarian verb form _adtad_ mentioned above is: `V SubPOS=m|Mood=i|Tense=s|Per=2|Num=s|Def=y`
+This is not a tagset or an annotation scheme, just a format, actually the file format of the CoNLL-2009 shared task [Syntactic and Semantic Dependencies in Multiple Languages](http://aclweb.org/anthology/W09-1201). The original MSD codes are converted into a linearized format of attribute-value pairs. The code at position 0 is separated as the POS tag, while the other morphosyntactic attributes are in a linear order based on the MSD positions. Non-applicable attributes have 'none' value. For example, the code for the Hungarian verb form _adtad_ mentioned above is: `V SubPOS=m|Mood=i|Tense=s|Per=2|Num=s|Def=y`
 
 The tagset is available in two formats:
 
@@ -49,7 +49,6 @@ These words were morphologically analyzed with magyarlanc 2.0, the list contains
 
 ### emMorph
 
-This is an annotation scheme.
 
 The webpage of [e-magyar](https://e-magyar.hu/en/textmodules/emmorph_codelist), a toolchain for processing Hungarian lists all possible tags of emMorph. This list needs to be completed, two further possible tags were found:
 
