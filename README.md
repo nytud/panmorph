@@ -61,7 +61,7 @@ Locative case suffix tag is incorrect on the website, [Inl] is the correct tag i
 
 The tagset is available in one format:
 
-* [emmorph.tsv](emmorph.tsv): possible tags of msd scheme. A wordlist was extracted from two sources:
+* [emmorph.tsv](emmorph.tsv): possible tags of emMorph scheme. A wordlist was extracted from two sources:
 1. the 100000 most frequent words of [Webcorpus](http://mokk.bme.hu/resources/webcorpus/)
 1. tokens of Szeged Treebank
 
