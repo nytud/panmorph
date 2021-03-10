@@ -76,3 +76,12 @@ No manual corrections were carried out on the tags, therefore the list may conta
 * emmorph2msd is available [here](https://github.com/vadno/emmorph2msd). 
 * emmorph2conll is available [here](https://github.com/vadno/emmorph2conll). 
 * emmorph2ud is available [here](https://github.com/vadno/emmorph2ud). 
+
+## Citation
+
+If you use this tool or any parts of its documentation, please refer to:
+
+Vadász, Noémi; Simon, Eszter: Konverterek magyar morfológiai címkekészletek között.
+In: Berend, Gábor; Gosztolya, Gábor; Vincze, Veronika (szerk.) XV. Magyar Számítógépes Nyelvészeti Konferencia.
+Szeged, Magyarország: Szegedi Tudományegyetem, Informatikai Intézet (2019), pp. 99-111. 
+
